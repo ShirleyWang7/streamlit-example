@@ -21,7 +21,7 @@ st.table(df1)
 
 st.line_chart(df1)
 
-st.map(df1)
+st.bar_chart(df1)
 
 input1 = st.button("Please enter your name")
 
