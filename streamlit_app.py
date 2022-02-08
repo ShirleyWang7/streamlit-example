@@ -36,7 +36,7 @@ with st.container():
     
     st.write("Within Container")
     
-    st.map(df1)
+    st.area_chart(df1)
     
     st.write("Outside Container")
     
