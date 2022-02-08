@@ -27,10 +27,12 @@ input1 = st.button("Please enter your name")
 
 choice1 = st.radio("What is your age?",("under 18","18 to 29", "30 to 40", "above 40"))
 
-image = Image.open('sunrise.jpg')
-st.image(image, caption = 'figure 1')
+#image = Image.open('sunrise.jpg')
+#st.image(image, caption = 'figure 1')
 
 col1,col2 = st.columns(2)
+col1.write("C1")
+col2.write("C2")
 
 with st.container():
     
